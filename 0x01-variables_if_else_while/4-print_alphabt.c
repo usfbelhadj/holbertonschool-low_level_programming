@@ -7,10 +7,10 @@
 */
 int main(void)
 {
-int i;
+char i;
 for (i = 'a'; i <= 'z'; i++)
 {
-if (i != 113 && i != 101)
+if (i != 'e' && i != 'q')
 putchar(i);
 }
 putchar("\n");
