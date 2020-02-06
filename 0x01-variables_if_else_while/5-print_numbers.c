@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-char c;
-for (c = 'a'; c <= 'z'; ++c)
-if ((strcmp('e',c)!=0 || (strcmp('q',c)!=0))
-putchar(c);
+int n;
+for (n=0; n <= 9; n++)
+printf("%d", n);
+printf("\n");
 return (0);
 }
