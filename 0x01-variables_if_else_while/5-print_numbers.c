@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - Alphabets
+ *main -List of Numbers
  *Return: 0
  */
 int main(void)

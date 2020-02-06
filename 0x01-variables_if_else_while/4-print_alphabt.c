@@ -2,14 +2,17 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - Alphabets
- *Return: 0
- */
+*main - Alphabets Whith out EQ
+*Return: 0
+*/
 int main(void)
 {
-char c;
-for (c = 'a'; c <= 'z'; ++c)
-if ((strcmp('e',c)!=0 || (strcmp('q',c)!=0))
-putchar(c);
+for (int i = 'a'; i <= 'z'; i++)
+{
+if ((i != 113) && (i != 101))
+{
+putchar(i);
+}
+}
 return (0);
 }
