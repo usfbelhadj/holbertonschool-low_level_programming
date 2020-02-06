@@ -2,12 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*main - Alphabets Whith out EQ
+*main - Alphabets With out EQ
 *Return: 0
 */
 int main(void)
 {
-for (int i = 'a'; i <= 'z'; i++)
+int i;
+for (i = 'a'; i <= 'z'; i++)
 {
 if ((i != 113) && (i != 101))
 {
