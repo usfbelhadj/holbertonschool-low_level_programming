@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main -Num With Out 
+ *main -Num With Out
  *Return: 0
  */
 int main(void)
