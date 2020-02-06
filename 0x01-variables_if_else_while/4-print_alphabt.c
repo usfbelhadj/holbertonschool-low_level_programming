@@ -7,14 +7,11 @@
 */
 int main(void)
 {
-int i='a';
-for (i; i <= 'z'; i++)
+int i;
+for (i = 'a'; i <= 'z'; i++)
 {
-if ((i != 113) && (i != 101))
-{
-continue;
+if (i != 113 && i != 101)
 putchar(i);
-}
 }
 putchar("\n");
 return (0);
