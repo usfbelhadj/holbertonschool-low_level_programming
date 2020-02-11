@@ -1,9 +1,9 @@
 
 #include "holberton.h"
 /**
-*islower- lower alpha
-*@c: string
-*Return: 0
+*_islower- lower alpha
+*@c: integer
+*Return: 1 if c = lower
 */
 int _islower(int c)
 {
