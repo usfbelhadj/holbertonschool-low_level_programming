@@ -2,7 +2,7 @@
 /**
 *_abs- absolute value
 *Return: 0
-*@r: value that take 
+*@r: value that take
 */
 int _abs(int r)
 {
