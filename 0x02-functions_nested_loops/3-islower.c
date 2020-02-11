@@ -2,7 +2,7 @@
 #include "holberton.h"
 /**
 *islower- lower alpha
-*@c- string
+*@c: string
 *Return: 0
 */
 int _islower(int c)
