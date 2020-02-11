@@ -4,7 +4,7 @@
 *@c: integer
 *Return: 1 if c = alpha
 */
-int _isalpha(int c);
+int _isalpha(int c)
 {
 if (c >= 65 && c <= 122)
 {
