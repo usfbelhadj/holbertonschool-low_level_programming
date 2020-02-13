@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * more_numbers- print 10 line of num
- *@i: int
- *@j: int
+ *more_numbers- print 10 line of num
+ *
+ * Return: void
  */
 void more_numbers(void)
 {
