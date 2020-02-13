@@ -4,7 +4,7 @@
  * Return: Always 0.
  *@i: int
  */
-void print_numbers(void)
+void print_numbers()
 {
 int i;
 for (i = 0; i <= 9; i++)
