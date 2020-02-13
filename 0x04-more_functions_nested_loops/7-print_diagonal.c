@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
+ * print_diagonal- diagonal line
  *@n: int
  */
 void print_diagonal(int n)
