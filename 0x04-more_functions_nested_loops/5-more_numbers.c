@@ -1,10 +1,8 @@
-
 #include "holberton.h"
 /**
- * more_numbers- check the code for Holberton School students.
+ * more_numbers- print 10 line of num
  *@i: int
  *@j: int
- * Return: Always 0.
  */
 void more_numbers(void)
 {
