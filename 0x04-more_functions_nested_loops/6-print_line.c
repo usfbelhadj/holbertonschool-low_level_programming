@@ -2,7 +2,6 @@
 /**
  * print_line- draw a line
  *@n: int
- *@i: int
  */
 void print_line(int n)
 {
