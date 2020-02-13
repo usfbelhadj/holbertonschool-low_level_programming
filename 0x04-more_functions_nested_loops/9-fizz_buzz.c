@@ -1,9 +1,7 @@
-#include "holberton.h"
 #include <stdio.h>
 /**
  * main - Fizz-Buzz test
- *@i: int
- * Return: Always 0.
+ * Return: 0
  */
 int main(void)
 {
