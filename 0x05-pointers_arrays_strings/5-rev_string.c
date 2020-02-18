@@ -1,15 +1,22 @@
-#include <stdio.h>
 #include "holberton.h"
-#include <string.h>
 /**
  * rev_string- reverse a string
  *
- * Return: Always 0.
+ * Return: string
  */
 void rev_string(char *s)
 {
-int i;
-char a;
-for (i = *s; i >= 0; i--)
-a = a + s[i];
+int i, j;
+char tmp;
+j = 0;
+while (s[j] != '\0')
+{
+j++;
+}
+for (i = 0; i <= j / 2; i++)
+{
+tmp = s[j - i - 1];
+s[j - i - 1] = s[i];
+s[i] = tmp;
+}
 }

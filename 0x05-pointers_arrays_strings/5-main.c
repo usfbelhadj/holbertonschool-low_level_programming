@@ -12,6 +12,6 @@ int main(void)
 
     printf("%s\n", s);
     rev_string(s);
-    printf("%s\n", s);
+    printf("in main %s\n", s);
     return (0);
 }
