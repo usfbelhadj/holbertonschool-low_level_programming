@@ -1,10 +1,10 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * print_array -elements of an array of integers
+ *print_array -elements of an array of integers
  *@a: array-int
  *@n: integer
- * Return: void
+ *Return: void
  */
 void print_array(int *a, int n)
 {
