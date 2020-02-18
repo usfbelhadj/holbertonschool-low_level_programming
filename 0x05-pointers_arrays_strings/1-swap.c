@@ -2,7 +2,7 @@
 /**
  *swap_int- swaps two integer
  *@k: integer
- *Return: integer
+ *Return: void
  */
 void swap_int(int *a, int *b)
 {
