@@ -2,8 +2,8 @@
 
 /**
  * print_rev-print a string in reverse
- *
- * Return: Always 0.
+ *@s: string
+ * Return: void
  */
 void print_rev(char *s)
 {
