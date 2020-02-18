@@ -2,8 +2,8 @@
 
 /**
  * puts2- n/2=0
- *
- * Return: int
+ *@str: string
+ * Return: void
  */
 void puts2(char *str)
 {
