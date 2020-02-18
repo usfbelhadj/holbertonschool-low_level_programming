@@ -17,5 +17,4 @@ else
 printf("%d\n", a[i]);
 i++;
 }
-printf("\n");
 }
