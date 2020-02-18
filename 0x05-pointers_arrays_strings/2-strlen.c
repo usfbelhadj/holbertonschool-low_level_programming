@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
 *_strlen- length of string
-*@c: int
-*Return: int
+*@c: integer
+*Return: integer
 */
 int _strlen(char *s)
 {
