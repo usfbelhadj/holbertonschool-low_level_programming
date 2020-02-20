@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- *_strncpy - Copy char
+ *_strcmp - Compares two strings
  *@s1 :string
  *@s2 :string
  *Return: integer
