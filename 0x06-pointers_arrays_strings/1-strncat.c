@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- *_strcat - Concat char
+ *_strncat - Concat char
  *@dest:string
  *@src:string
  *@n: integer
