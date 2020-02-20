@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
  *_strcat - Concat char
  *@dest:string
@@ -15,8 +14,9 @@ j++;
 }
 for (i = 0; src[i] != '\0'; i++)
 {
-    dest[j + i] = src[i];
+    dest[j] = src[i];
+    j++;
 }
-dest [j + i] = '\0';
+dest [j] = '\0';
 return (dest);
 }
