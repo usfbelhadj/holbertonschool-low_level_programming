@@ -3,6 +3,7 @@
  *_strcat - Concat char
  *@dest:string
  *@src:string
+ *@n: integer
  * Return: strings
  */
 char *_strncat(char *dest, char *src, int n)
