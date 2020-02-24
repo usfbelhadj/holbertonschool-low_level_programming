@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
+ * _strspn - function that gets the length of a prefix substring
  * @s: string
  * @accept: string
  * Return: Always 0.
