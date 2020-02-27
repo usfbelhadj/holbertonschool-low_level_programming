@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
 *cap_string - capitalize each word of a string
-*@str: pointer type char
+*@st: pointer type char
 *Return: str
 */
 char *cap_string(char *st)
