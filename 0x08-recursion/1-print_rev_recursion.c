@@ -11,7 +11,4 @@ if (*s++ != '\0')
 if (s[i] != '\0')
 _print_rev_recursion(s);
 _putchar(s[i - 1]);
-if (s[0] != s[i])
-_putchar('\n');
-return;
 }
