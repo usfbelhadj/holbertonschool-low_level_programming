@@ -1,3 +1,10 @@
+#include "holberton.h"
+/**
+ *_pow_recursion- factorial of num
+ *@x: integer
+ *@y: integer
+ * Return: Always 0.
+ */
 int _pow_recursion(int x, int y)
 {
 if (y < 0)
