@@ -15,7 +15,7 @@ int sum = 0;
 
 if (argc == 1)
 {
-printf("0");
+printf("0\n");
 }
 
 for (i = 1; argv[i]; i++)
