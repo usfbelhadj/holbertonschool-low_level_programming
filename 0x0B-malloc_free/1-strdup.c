@@ -21,4 +21,5 @@ s = malloc(sizeof(*s) * i);
 for (j = 0; j < i; j++)
 s[j] = str[j];
 return (s);
+free(s);
 }
