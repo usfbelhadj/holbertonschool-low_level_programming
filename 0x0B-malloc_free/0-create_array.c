@@ -19,8 +19,12 @@ else
 {
 str = malloc(sizeof(char) * size);
 for (i = 0; i < size; i++)
+if (str == NULL)
+return (NULL);
+else
+{
 str[i] = c;
+}
 return (str);
 }
-free(str);
 }
