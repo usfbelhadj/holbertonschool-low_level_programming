@@ -4,6 +4,7 @@
 /**
  * str_concat- creates an array of chars
  * @s1: string
+ * @s2: string
  * Return: Nothing.
  */
 char *str_concat(char *s1, char *s2)
