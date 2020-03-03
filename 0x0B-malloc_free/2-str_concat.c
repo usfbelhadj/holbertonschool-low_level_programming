@@ -22,6 +22,8 @@ j++;
 c2++;
 }
 s = malloc(c1 + c2 + 1);
+if (s == NULL)
+return (NULL);
 i = 0;
 for (k = 0; k < c1; k++)
 {
