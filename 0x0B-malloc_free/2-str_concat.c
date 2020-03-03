@@ -16,14 +16,14 @@ while (s1[i] != '\0')
 i++;
 c1++;
 }
-if (i == NULL)
+if (i == 0)
 s1 = "";
 while (s2[j] != '\0')
 {
 j++;
 c2++;
 }
-if (j == NULL)
+if (j == 0)
 s2 = "";
 s = malloc(c1 + c2 + 1);
 if (s == NULL)
