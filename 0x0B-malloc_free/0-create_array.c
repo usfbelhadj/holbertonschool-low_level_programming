@@ -1,7 +1,6 @@
 #include "holberton.h"
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * create_array- creates an array of chars
  * @c: string
@@ -23,4 +22,5 @@ for (i = 0; i < size; i++)
 str[i] = c;
 return (str);
 }
+free(str);
 }
