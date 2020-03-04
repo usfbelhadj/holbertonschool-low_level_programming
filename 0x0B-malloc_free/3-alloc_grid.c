@@ -18,7 +18,7 @@ if (arg == NULL)
 return (NULL);
 for (i = 0; i < height; i++)
 {
-arg[i] = malloc(sizeof(int *) * width);
+arg[i] = malloc(sizeof(int) * width);
 if (arg[i] == NULL)
 {
 for (j = 0 ; j < i; j++)
