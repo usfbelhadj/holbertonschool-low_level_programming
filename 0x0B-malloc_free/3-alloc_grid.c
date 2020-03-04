@@ -22,7 +22,7 @@ arg[i] = malloc(sizeof(int) * width);
 if (arg[i] == NULL)
 {
 for (j = 0 ; j < i; j++)
-free(arg[i]);
+free(arg[j]);
 free(arg);
 return (NULL);
 }
