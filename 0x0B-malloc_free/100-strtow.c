@@ -8,8 +8,9 @@
  */
 char **strtow(char *str)
 {
-int i = 0, j;
-char *s, *s1;
+unsigned int i = 0;
+unsigned int j, k, l;
+char *s, **s1;
 while (str[i] != '\0')
 i++;
 if (i == 0)
@@ -20,7 +21,13 @@ return (NULL);
 for (j = 0; str[j]; j++)
 {
 if (s[j] != ' ')
-s1 = s1[j] + s[j];
+for (k = 0;str[k]; k++)
+{
+s1 = s1 + s[k];
+for (l = 0; s1[l]; l++)
+if (**s1 == ' ')
+break;
+}
 }
 return (s1);
 }
