@@ -25,8 +25,7 @@ c2++;
 }
 if (j == 0)
 s2 = "";
-c2 = c2 + 1;
-s = malloc(c1 + c2);
+s = malloc(c1 + c2 + 1);
 if (s == NULL)
 return (NULL);
 i = 0;
