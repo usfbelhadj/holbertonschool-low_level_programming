@@ -4,7 +4,7 @@
 /**
  * string_nconcat - malloc
  *@s1: string1
- *@s1: string2
+ *@s2: string2
  *@n: integer
  * Return: 0.
  */
