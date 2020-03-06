@@ -1,6 +1,7 @@
+#include "holberton.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "holberton.h"
+#include <string.h>
 /**
  * _calloc - malloc
  *@nmemb: integer
