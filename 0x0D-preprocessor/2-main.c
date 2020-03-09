@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main - print original file name
+ *main - file name
  *
  * Return: 0
  */
