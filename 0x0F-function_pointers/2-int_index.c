@@ -1,5 +1,12 @@
 #include "function_pointers.h"
 #include <stdio.h>
+/**
+ * int_index - to search for an integer
+ * @cmp: The function i use to comp the array
+ * @array: an array
+ * @size: the size of an array
+ * Return: How many numbers matches
+ */
 int int_index(int *array, int size, int (*cmp)(int))
 {
 int i;
