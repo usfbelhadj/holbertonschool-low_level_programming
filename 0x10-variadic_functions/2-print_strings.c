@@ -19,8 +19,10 @@ if (ch != NULL)
 {
 printf("%s", ch);
 }
-else
+if (ch == NULL)
+{
 printf("nil");
+}
 if (i + 1 == n)
 break;
 if (separator != NULL)
