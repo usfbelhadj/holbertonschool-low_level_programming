@@ -16,7 +16,10 @@ for (i = 0; i < n; i++)
 {
 ch = va_arg(print_string, char *);
 if (ch != NULL)
+{
 printf("%s", ch);
+}
+else
 printf("nil");
 if (i + 1 == n)
 break;
