@@ -9,10 +9,10 @@
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 unsigned int i;
-if (separator == NULL)
-separator = NULL;
 va_list print_string;
 va_start(print_string, n);
+if (separator == NULL)
+separator = NULL;
 for (i = 0; i < n; i++)
 {
 printf("%s", va_arg(print_string,const char *));
