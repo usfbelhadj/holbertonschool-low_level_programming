@@ -9,12 +9,16 @@
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 unsigned int i;
+char *ch;
 va_list print_string;
 va_start(print_string, n);
 for (i = 0; i < n; i++)
 {
-if (va_arg(print_string,const char *) != NULL)
-printf("%s", va_arg(print_string,const char *));
+ch = va_arg(print_string, char *);
+if (ch != NULL)
+printf("%s", ch);
+else
+printf("nil");
 if (i + 1 == n)
 break;
 if (separator != NULL)
