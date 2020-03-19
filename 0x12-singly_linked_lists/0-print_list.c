@@ -1,24 +1,29 @@
 #include "lists.h"
 /**
- * print_list- Print All Item in list
- * @h: structe pointer
- * Retune: integer
+ * 
+ * 
+ * 
+ * 
+ * 
  */
 
 size_t print_list(const list_t *h)
 {
-int n;
-if (h == NULL)
-{
-printf("[0] (nil)");
-return;
-}
+int n = 0;
 while (h != NULL)
 {
-printf("%d", h->str);
-h = h->next;
-n++;
+if (h->str != NULL)
+{
+printf("[%d] %s",h->len, h->str);
 }
+if (h->str == NULL)
+{
+printf("[%d] (nil)",n);
+}
+h = h->next;
+
+n++;
 printf("\n");
+}
 return (n);
 }
