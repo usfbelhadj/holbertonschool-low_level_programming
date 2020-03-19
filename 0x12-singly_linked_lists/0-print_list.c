@@ -1,10 +1,8 @@
 #include "lists.h"
 /**
- * 
- * 
- * 
- * 
- * 
+ * print_list- Print All Elemetns
+ * @h: Struct Pointer
+ * Return: Integer
  */
 
 size_t print_list(const list_t *h)
@@ -14,14 +12,13 @@ while (h != NULL)
 {
 if (h->str != NULL)
 {
-printf("[%d] %s",h->len, h->str);
+printf("[%d] %s", h->len, h->str);
 }
 if (h->str == NULL)
 {
-printf("[%d] (nil)",n);
+printf("[%d] (nil)", n);
 }
 h = h->next;
-
 n++;
 printf("\n");
 }
