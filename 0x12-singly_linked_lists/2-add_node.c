@@ -15,12 +15,12 @@ if (temp == NULL)
 return (NULL);
 if (temp != NULL)
 {
+temp->str = strdup(str);
 for (i = 0; i < str[i]; i++)
 {
-temp->str = strdup(str);
 temp->next = (*head);
-temp->len = i + 1;
 }
+temp->len = i;
 }
 (*head) = temp;
 return (temp);
