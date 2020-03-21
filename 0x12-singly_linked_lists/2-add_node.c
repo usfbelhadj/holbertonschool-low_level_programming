@@ -22,6 +22,6 @@ temp->next = (*head);
 temp->len = i + 1;
 }
 (*head) = temp;
-return (temp);
 }
+return (temp);
 }
