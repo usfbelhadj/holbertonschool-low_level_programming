@@ -15,9 +15,12 @@ for (i = 0; i < str[i]; i++)
 temp = (struct list_s *) malloc(sizeof(struct list_s));
 if (temp == NULL)
 printf("NULL");
+if (temp != NULL)
+{
 temp->str = strdup(str);
 temp->next = (*head);
 temp->len = i + 1;
+}
 }
 (*head) = temp;
 return (temp);
