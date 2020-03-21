@@ -16,7 +16,7 @@ return (NULL);
 if (temp != NULL)
 {
 temp->str = strdup(str);
-for (i = 0;str[i] != '\0'; i++)
+for (i = 0; str[i] != '\0'; i++)
 ;
 temp->next = (*head);
 temp->len = i;
