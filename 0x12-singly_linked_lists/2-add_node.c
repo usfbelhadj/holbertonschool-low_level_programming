@@ -12,8 +12,7 @@ struct list_s *temp;
 int i;
 temp = (struct list_s *) malloc(sizeof(struct list_s));
 if (temp == NULL)
-printf("NULL");
-free(temp);
+return (NULL);
 if (temp != NULL)
 {
 for (i = 0; i < str[i]; i++)
