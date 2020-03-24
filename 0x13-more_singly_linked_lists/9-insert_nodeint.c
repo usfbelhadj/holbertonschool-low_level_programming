@@ -14,8 +14,6 @@ temp = *head;
 add = malloc(sizeof(listint_t));
 if (add == NULL)
 return (NULL);
-if (head == NULL)
-return (NULL);
 if (idx == 0)
 {
 add->n = n;
