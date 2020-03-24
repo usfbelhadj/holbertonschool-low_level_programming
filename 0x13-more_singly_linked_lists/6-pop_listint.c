@@ -1,7 +1,8 @@
 #include "lists.h"
 /**
- *pop_listint- Delete List
+ * pop_listint - Delete List
  * @head:First iteam in the list
+ * Return: Integer
  */
 int pop_listint(listint_t **head)
 {
