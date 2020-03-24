@@ -1,4 +1,10 @@
 #include "lists.h"
+/**
+ * get_nodeint_at_index - returns the nth node
+ * @head: First Iteam
+ * @index: index
+ * Return: integer
+ */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
 listint_t *temp;
@@ -13,5 +19,5 @@ return (temp);
 i++;
 temp = temp->next;
 }
-return (i);
+return (temp);
 }
