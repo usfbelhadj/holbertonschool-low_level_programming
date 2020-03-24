@@ -12,18 +12,33 @@ listint_t *temp, *add;
 unsigned int i;
 temp = *head;
 add = malloc(sizeof(listint_t));
-if (add != NULL)
+if (add == NULL)
+return (NULL);
+if (head == NULL)
+return (NULL);
+if (idx == 0)
 {
-add->next = *head;
 add->n = n;
-add = *head;
+add->next = *head;
+*head = add;
 return (add);
 }
-for (i = 2; i <= idx - 1; i++)
+else
 {
-add = add->next;
-temp->next = add->next;
-add->next = temp;
+while (i <= idx - 1)
+{
+if (i == idx - 1)
+{
+add->n = n;
+add->next = temp->next;
+temp->next = add;
+return (add);
 }
-return (*head);
+if (temp == NULL || temp->next == NULL)
+return (NULL);
+temp = temp->next;
+i++;
+}
+}
+return (NULL);
 }
