@@ -10,10 +10,10 @@ int l;
 temp = *head;
 if (temp == NULL)
 return (0);
-while ((*head)->next != NULL)
+else
 {
 *head = (*head)->next;
-l = (*head)->n;
+l = temp->n;
 free(temp);
 }
 return (l);
