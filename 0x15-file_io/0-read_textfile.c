@@ -14,7 +14,7 @@ char *c;
 	if (filename == NULL)
 		return (0);
 	c = malloc(letters);
-	if (!c)
+	if (c == NULL)
 		return (0);
 	op = open(filename, O_RDWR);
 	if (op == -1)
