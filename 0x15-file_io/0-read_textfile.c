@@ -23,7 +23,7 @@ char *c;
 	if (r == -1)
 		return (0);
 
-	w = write(1, c, r);
+	w = write(STDOUT_FILENO, c, r);
 	if (w == -1)
 		return (0);
 	free(c);
