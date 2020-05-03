@@ -14,9 +14,6 @@ temp = *h;
 add = malloc(sizeof(dlistint_t));
 if (add == NULL)
 return (NULL);
-add->next = n;
-add->next = NULL;
-add->prev = NULL;
 if (idx == 0)
 {
 add = add_dnodeint(h, n);
