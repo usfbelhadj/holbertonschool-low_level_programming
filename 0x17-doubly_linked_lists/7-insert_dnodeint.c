@@ -16,9 +16,7 @@ if (add == NULL)
 return (NULL);
 if (idx == 0)
 {
-add->n = n;
-add->next = *h;
-*h = add;
+add = add_dnodeint(h, n);
 return (add);
 }
 else
@@ -27,9 +25,10 @@ while (i <= idx - 1)
 {
 if (i == idx - 1)
 {
-add->n = n;
 add->next = temp->next;
+add->n = n;
 temp->next = add;
+if(add->next != NULL)
 temp->next->prev = add;
 return (add);
 }
