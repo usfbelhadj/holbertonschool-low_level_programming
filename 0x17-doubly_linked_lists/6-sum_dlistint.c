@@ -12,5 +12,5 @@ if (temp == NULL)
 {
 return (0);
 }
-return (temp->n + sum_listint(temp->next));
+return (temp->n + sum_dlistint(temp->next));
 }
