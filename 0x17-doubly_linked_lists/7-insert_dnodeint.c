@@ -19,11 +19,6 @@ if (idx == 0)
 add = add_dnodeint(h, n);
 return (add);
 }
-if (temp->next == NULL)
-{
-add = add_dnodeint_end(h, n);
-return (add);
-}
 while (i <= idx - 1)
 {
 if (i == idx - 1)
