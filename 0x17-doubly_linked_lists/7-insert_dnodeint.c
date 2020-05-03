@@ -30,6 +30,8 @@ if (i == idx - 1)
 add->n = n;
 add->next = temp->next;
 temp->next = add;
+if (temp->next != NULL)
+temp->next->prev = add;
 return (add);
 }
 if (temp == NULL || temp->next == NULL)
